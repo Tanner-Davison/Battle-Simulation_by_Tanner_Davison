@@ -1,64 +1,43 @@
 #include <iostream>
-#include "Header1.H"
+#include "MathFuncs.h"
+#include "CharacterFuncs.h"
 #include <thread>
 #include <string>
+
 using namespace std;
 
 
-void hello()
-{
-	cout << "Hello World" << endl;
-}
-
-int addTogether(int Param1, int Param2)
-{
-	return (Param1 + Param2);
-}
-int greatestOfTwoInts(int Param1, int Param2);
-
-int greaterOfThree(int x, int y, int z);
 
 int main()
 {
-	/*const int target = 100;
-	int hitsAllowed(10), hitDamage(10), hitsTaken(0), health(100);
+	const int target = 100;
+	int hitsallowed(10), hitdamage(10), hitsTaken(0), health(100), currentPoints(0);
 
-	for (int i = 0; i < hitsAllowed; i++) {
-		health -= hitDamage;
+	for (int i = 0; i < hitsallowed; i++) {
+		health -= hitdamage;
 		hitsTaken++;
-		cout << "stop hitting yourself" << endl;;
+		cout << "Damage Taken: " << hitsTaken << endl;;
 		if (health <= 0)
 		{
-			cout << "YOUR DEAD" << endl;
+			health = boostHealth(health);
+			currentPoints = boostPoints(currentPoints);
+			break;
+		}
+		else if (health <= 100)
+		{
+			cout << "\nRemaining Health: " << health << endl;
+
+		}
+		else {
+			cout << "\nstill in the game" << endl;
+			cout << "hits taken : " << hitsTaken << endl;
+			cout << "remaining health: " << health << endl;
 		}
 	}
-	if (health <= 0)
-	{
-		cout << "\nyou died" << endl;
-	}
-	else {
-		cout << "\nstill in the game" << endl;
-		cout << "hits Taken : " << hitsTaken << endl;
-		cout << "Remaining Health: " << health << endl;
-	}*/
-
-
-	int greatest = greaterOfThree(100, 80, 1299);
-	cout << greatest << endl;
-
-
+	cout << "\n You died but... Health regeneration gave you: " << health << endl;
+	cout << "Points collected from battle: " << currentPoints << endl;
 	return 0;
 }
-int greaterOfThree(int x, int y, int z) {
-	return greatestOfTwoInts(x, greatestOfTwoInts(y, z));
-}
 
-int greatestOfTwoInts(int Param1, int Param2) {
-	if (Param1 > Param2) {
-		return Param1;
-	}
-	else {
-		return Param2;
-	}
-}
+
 
