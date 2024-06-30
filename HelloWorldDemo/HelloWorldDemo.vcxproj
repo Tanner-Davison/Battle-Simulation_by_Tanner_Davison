@@ -71,6 +71,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(Namespace Ex)Header Files</ExternalIncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -128,13 +131,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CharacterFuncs.cpp" />
+    <ClCompile Include="Character\CharacterFuncs.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Math\customMath.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CharacterFuncs.h" />
-    <ClInclude Include="MathFuncs.cpp" />
-    <ClInclude Include="MathFuncs.h" />
+    <ClInclude Include="Character\CharacterFuncs.h" />
+    <ClInclude Include="Math\customMath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

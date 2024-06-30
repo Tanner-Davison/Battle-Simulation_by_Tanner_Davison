@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 // default argument will be called if no arguments are passed;
@@ -13,3 +14,5 @@ int boostPoints(int currentPoints, int pointBoost = 15, bool bMultiply = false, 
 		return (currentPoints + pointBoost);
 	}
 }
+
+
