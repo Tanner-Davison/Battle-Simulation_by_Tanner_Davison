@@ -17,4 +17,8 @@ namespace customMath {
 		return x + x;
 	}
 
+	bool isEqual(int x, int y) {
+		return (x == y);
+	}
+
 }

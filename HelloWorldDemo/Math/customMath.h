@@ -8,4 +8,6 @@ namespace customMath {
 
 	int addTwo(int, int);
 
+	bool isEqual(int x, int y);
+
 }
