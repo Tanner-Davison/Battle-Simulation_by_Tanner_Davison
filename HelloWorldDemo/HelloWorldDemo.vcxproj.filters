@@ -24,12 +24,18 @@
     <ClCompile Include="Math\customMath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="entity\EntityFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character\CharacterFuncs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Math\customMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\EntityFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

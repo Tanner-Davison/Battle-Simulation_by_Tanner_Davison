@@ -132,11 +132,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Character\CharacterFuncs.cpp" />
+    <ClCompile Include="entity\EntityFunctions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Math\customMath.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character\CharacterFuncs.h" />
+    <ClInclude Include="entity\EntityFunctions.h" />
     <ClInclude Include="Math\customMath.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
