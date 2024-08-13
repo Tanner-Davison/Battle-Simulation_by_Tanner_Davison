@@ -39,7 +39,7 @@ This C++ project simulates a battle between a player and an enemy, where the pla
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/character-battle-simulation.git
+    git clone https://github.com/Tanner-Davison/Battle-Simulation_by_Tanner_Davison.git
     ```
 
 2. Compile the code using a C++ compiler.
