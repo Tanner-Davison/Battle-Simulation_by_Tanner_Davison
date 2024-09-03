@@ -1,14 +1,15 @@
 #pragma once
 #include <iostream>
 
-int higherOfTwoInts(int Param1, int Param2) {
-	if (Param1 > Param2) {
-		return Param1;
+int higherOfTwoInts(int param1, int param2) {
+	if (param1 > param2) {
+		return param1;
 	}
 	else {
-		return Param2;
+		return param2;
 	}
 }
-int higherOfThreeInts(int x, int y, int z) {
+int higherOfThreeInts(const int x, const int y, const int z)
+{
 	return higherOfTwoInts(x, higherOfTwoInts(y, z));
 }
