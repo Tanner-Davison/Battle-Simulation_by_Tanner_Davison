@@ -1,6 +1,8 @@
 #include <iostream>
+#include "MathFuncs.h"
 #include "CharacterFuncs.h"
-
+#include <thread>
+#include <string>
 
 using namespace std;
 

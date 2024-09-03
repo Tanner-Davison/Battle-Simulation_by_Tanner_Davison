@@ -18,18 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CharacterFuncs.cpp">
-      <Filter>Header Files</Filter>
+    <ClCompile Include="Character\CharacterFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\customMath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\EntityFunctions.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MathFuncs.cpp">
+    <ClInclude Include="Character\CharacterFuncs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MathFuncs.h">
+    <ClInclude Include="Math\customMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CharacterFuncs.h">
+    <ClInclude Include="entity\EntityFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

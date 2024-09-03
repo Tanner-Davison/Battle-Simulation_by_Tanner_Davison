@@ -1,0 +1,6 @@
+# ninja log v6
+5	204	1725340907279095990	CMakeFiles/Cplusplus_Project.dir/HelloWorldDemo/main.cpp.o	23c6341a9b603d13
+6	227	1725340693721166546	CMakeFiles/Cplusplus_Project.dir/HelloWorldDemo/MathFuncs.cpp.o	bde556b091d4b2dc
+0	219	1725340333679428165	CMakeFiles/Cplusplus_Project.dir/HelloWorldDemo/CharacterFuncs.cpp.o	fd87f18778ab8c5
+1	41	1725340983450813049	build.ninja	3cdd08dbd6fd31d4
+204	238	1725340907477651797	Cplusplus_Project	b5e34a8a4359e21d
